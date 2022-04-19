@@ -248,8 +248,28 @@ img {
 .our-team {
   background-color: var(--staff-background-color);
 }
+.our-team .section-title {
+  padding-top: 94px;
+  margin: 0 auto;
+}
+
 .members {
-  margin-bottom: 94px;
+  display: flex;
+  padding-bottom: 94px;
+  margin-top: 50px;
+}
+
+.members li + li {
+  margin-left: 30px;
+}
+.members h3 {
+  margin-top: 30px;
+  text-align: center;
+  min-width: 137px;
+}
+.members p {
+  margin-bottom: 10px;
+  text-align: center;
 }
 .members .member-name {
   color: var(--title-text-color);
@@ -317,6 +337,18 @@ img {
 /* footer */
 .footer {
   background-color: var(--hero-footer-background-color);
+  display: block;
+}
+.footer .container {
+  padding-top: 60px;
+
+  padding-bottom: 60px;
+}
+.container .adress {
+  margin-top: 20px;
+}
+.adress li + li {
+  margin-top: 9px;
 }
 .logo-footer {
   color: var(--main-background-color);
